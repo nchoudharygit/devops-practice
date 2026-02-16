@@ -1,0 +1,10 @@
+services:
+  api:
+    image: ${IMAGE}
+    environment:
+      PORT: "3000"
+      APP_VERSION: "deploy"
+      # If your app uses Postgres, add the DB service here or point to managed DB.
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
