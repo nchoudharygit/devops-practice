@@ -1,5 +1,6 @@
-# 01 - CI Basics
 ![CI](https://github.com/nchoudharygit/devops-practice/actions/workflows/ci.yml/badge.svg)
+
+# 01 - CI Basics
 
 ## Scenario
 You own a tiny API that must not regress. Your job is to set up a clean CI pipeline that runs on every PR.
