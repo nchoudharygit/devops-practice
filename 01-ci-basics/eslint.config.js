@@ -6,6 +6,13 @@ export default [
     languageOptions: {
       ecmaVersion: 2022,
       sourceType: "module",
+      globals: {        // Node.js
+        process: "readonly",
+        console: "readonly",
+        describe: "readonly",
+        it: "readonly",
+        expect: "readonly"
+      }
     },
     rules: {
       "no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
